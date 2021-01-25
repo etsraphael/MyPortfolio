@@ -332,6 +332,8 @@ section.section-show {
 section .container {
   background: rgba(0, 0, 0, 0.9);
   padding: 30px;
+  border-radius: 15px;
+  margin-top: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -415,6 +417,7 @@ section .container {
   position: relative;
   text-align: center;
   background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
 }
 
 .counts .count-box i {
@@ -896,6 +899,7 @@ section .container {
   padding: 20px;
   width: 100%;
   background: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
 }
 
 .contact .info-box i.bx {
@@ -1177,4 +1181,8 @@ section .container {
 
 .credits a:hover {
   color: #fff;
+}
+
+.me-img {
+  border-radius: 15px;
 }
