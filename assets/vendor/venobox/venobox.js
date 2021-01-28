@@ -763,7 +763,7 @@
                         'width': framewidth,
                         'height': frameheight,
                         'padding': border,
-                        'background': bgcolor
+                        'background': bgcolor,
                     });
 
                     $('img.vbox-figlio').on('dragstart', function(event) {

@@ -779,6 +779,7 @@ section .container {
   overflow: hidden;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -889,6 +890,11 @@ section .container {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
+}
+
+.portfolio-wrap img {
+  min-height: 21rem;
+  object-fit: cover;
 }
 
 /*--------------------------------------------------------------
